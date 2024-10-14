@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <nav>
+    <div class="container">
+        <h1 class="logo">Pixel Paradigm</h2>
+        <div class="menu menu-btn">
+            <a href="" class="ab">About</a>
+            <a href="" class="serv">Services</a>
+            <a href="" class="btn">Contacts</a>
+        </div>
+        <i class='bx bx-menu'></i>
+    </div>
+   </nav>
+
+   <header>
+    <div class="text">
+        <h1 class="title">Wanna Live Your life To The Fullest ?</h1>
+        <h2 class="sub">Starting With Us</h2>
+        <div class="line"></div>
+    </div>
+   </header>
+<script>
+    const menuBtn = document.querySelector('.bx-menu')
+    const menu = document.querySelector('.menu')
+
+    menuBtn.addEventListener('click',()=>{
+        menu.classList.toggle('menu-mobile')
+    })
+</script>
+</body>
+</html>
